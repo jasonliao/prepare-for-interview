@@ -1,4 +1,4 @@
-# Event delegation
+# Event Delegation
 
 Event delegation allows you to avoid adding event listeners to specific nodes; instead, the event listeners is added to one parent.
 
@@ -57,7 +57,7 @@ if (element.addEventListener) {
 
 所以我们可以用函数的惰性载入来提高性能，我们重新定义一个 `addEvent` 的函数。
 
-1. 这种方法会判断后为我们的 `addEvent` 方法重新定义，在最后执行并且返回。这样只会在第一次调用的时候损失一点性能。
+- 这种方法会判断后为我们的 `addEvent` 方法重新定义，在最后执行并且返回。这样只会在第一次调用的时候损失一点性能。
 
 ```javascript
 var addEvent = function (type, element, fn) {
@@ -79,7 +79,7 @@ var addEvent = function (type, element, fn) {
 };
 ```
 
-2. 这种方法则是把一个自执行的函数赋给 `addEvent`，返回一个函数。这样就会在加载的时候损失一点性能。
+- 这种方法则是把一个自执行的函数赋给 `addEvent`，返回一个函数。这样就会在加载的时候损失一点性能。
 
 ```javascript
 var addEvent = (function () {
