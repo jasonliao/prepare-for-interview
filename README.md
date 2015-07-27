@@ -1,8 +1,11 @@
 # Prepare for Interview
 
+Step by step, keep moving
+
 ## JavaScript
 
 - [Event Delegation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-delegation.md)
+- [Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/inheritance.md)
 
 ## HTML
 
