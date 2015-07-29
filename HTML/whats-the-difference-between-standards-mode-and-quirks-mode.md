@@ -49,11 +49,11 @@
 
   `span` 就是 non-replaced 元素，在怪异模式下，定义这些元素的 width 和 height 属性，是可以影响该元素的尺寸大小的。
 
-  - **Percentage height** of elements
+3. **Percentage height** of elements
 
   在怪异模式下，即使封闭块的 height 为默认值(auto)。元素的百分比高度也会起作用。但在标准模式下，元素的高度取决于内容的大小，只有在封闭块的 height 属性为特定值的时候，百分比高度才会起作用。
 
-3. The **height of the `body` element** is 100%
+4. The **height of the `body` element** is 100%
 
   如果在标准模式下，就是在CSS里设置
 
@@ -63,20 +63,20 @@
   }
   ```
 
-4. **Overflow** is treated by expanding a box
+5. **Overflow** is treated by expanding a box
 
   当我们的 `overflow: visible`(默认) 的时候，字会超过这个盒子显示。但是在怪异的模式下，盒子的大小就会被改变，如果盒子有背景色或者边框的时候，就会很容易被发现。
 
-5. **Alt text** is not always shown
+6. **Alt text** is not always shown
 
   怪异模式下，当图片不显示，并且 `img` 的尺寸小于 `alt` 属性的文本显示大小的时候，就会不显示 `alt` 的值
 
-6. The **root element** is the `body` element on IE in quirks mode
+7. The **root element** is the `body` element on IE in quirks mode
 
-7. A gray 2px **page border** appears by default on some versions of IE
+8. A gray 2px **page border** appears by default on some versions of IE
 
-8. **Padding for an image** is ignored when set in CSS for an `img` element or an `<input type="image">`
+9. **Padding for an image** is ignored when set in CSS for an `img` element or an `<input type="image">`
 
-9. The declaration **white-space: pre** is ignored
+10. The declaration **white-space: pre** is ignored
 
-10. and more in [What heppens in Quirks Mode?](https://www.cs.tut.fi/~jkorpela/quirks-mode.html)
+11. and more in [What heppens in Quirks Mode?](https://www.cs.tut.fi/~jkorpela/quirks-mode.html)

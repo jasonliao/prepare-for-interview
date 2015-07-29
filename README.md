@@ -9,6 +9,7 @@ Step by step, keep moving
 ## CSS
 
 - [Block Formatting Context](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/block-formatting-context.md)
+- [CSS Sprites](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/css-sprites.md)
 
 ## JavaScript
 
