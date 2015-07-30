@@ -16,3 +16,4 @@ Step by step, keep moving
 - [Event Delegation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-delegation.md)
 - [Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/inheritance.md)
 - [Event Loop](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-loop.md)
+- [AMD and CMD](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/amd-and-cmd.md)
