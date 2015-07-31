@@ -70,3 +70,30 @@ define(function (require, exports, module) {
 	exports.bar = bar;
 });
 ```
+
+## Difference between RequireJS and SeaJS
+
+1. 定位有差异
+
+	RequireJS 想成为浏览器端的模块加载器，同时也想成为 Rhino / Node 等环境的模块加载器。SeaJS 则专注于 Web 浏览器端，同时通过 Node 扩展的方式可以很方便跑在 Node 环境中。
+
+2. 遵循的规范不同
+
+	RequireJS 遵循 AMD（异步模块定义）规范，SeaJS 遵循 CMD （通用模块定义）规范。规范的不同，导致了两者 API 不同。SeaJS 更贴近 CommonJS Modules/1.1 和 Node Modules 规范。
+
+3. 推广理念有差异
+
+	RequireJS 在尝试让第三方类库修改自身来支持 RequireJS，目前只有少数社区采纳。SeaJS 不强推，采用自主封装的方式来“海纳百川”，目前已有较成熟的封装策略。
+
+4. 对开发调试的支持有差异
+
+	SeaJS 非常关注代码的开发调试，有 nocache、debug 等用于调试的插件。RequireJS 无这方面的明显支持。
+
+5. 插件机制不同
+
+	RequireJS 采取的是在源码中预留接口的形式，插件类型比较单一。SeaJS 采取的是通用事件机制，插件类型更丰富。
+
+## Reference
+
+- [前端模块化开发那点历史](https://github.com/seajs/seajs/issues/588)
+- [SeaJS与RequireJS的异同](https://github.com/seajs/seajs/issues/277)
