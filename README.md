@@ -12,6 +12,7 @@ Step by step, keep moving
 - [Block Formatting Context](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/block-formatting-context.md)
 - [CSS Sprites](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/css-sprites.md)
 - [Clearing Floats](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/clearing-floats.md)
+- [About * { box-sizing: border-box; }](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/about-box-sizing-border-box.md)
 
 ## JavaScript
 
