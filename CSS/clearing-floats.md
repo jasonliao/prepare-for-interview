@@ -18,7 +18,7 @@
 	
 	可以对父元素设置 `overflow: auto/hidden`，这样就可以使得父元素的高度被浮动的元素扩展。
 	
-	这是因为加上了这个属性之后，会使得父元素变成 [BFC](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/block-formatting-context.md)，因为 BFC 是可以包含浮动的，所以就会有了高度。
+	这是因为加上了这个属性之后，会使得父元素变成 [BFC](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/block-formatting-context.md)，因为 [BFC](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/block-formatting-context.md) 是可以包含浮动的，所以就会有了高度。
 	
 	但也要注意的是，`overflow` 属性可能会让你的内容看不见或者出现了你不想要的滚动条
 

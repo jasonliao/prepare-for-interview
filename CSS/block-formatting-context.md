@@ -107,7 +107,7 @@ div {
 
 很多时候，当我们在一个元素里设置了 `float`，他的父元素如果没有设定高度，他的高度就会变为 0 ，因为内容浮起来啦！！
 
-虽然有很多方法可以清理浮动。但却可以使用 BFC 来更加方便的解决这个问题
+虽然有很多方法可以[清理浮动](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/clearing-floats.md)。但却可以使用 BFC 来更加方便的解决这个问题
 
 只要把父元素变成 BFC 就可以了
 
