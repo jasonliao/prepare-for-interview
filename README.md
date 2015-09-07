@@ -23,3 +23,8 @@ Step by step, keep moving
 - [Hoisting](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/hoisting.md)
 - [Difference Between Function Declaration and Function Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/difference-between-function-declaration-and-function-expression.md)
 - [Immediately-invoked-Function-Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/immediately-invoked-function-expression.md)
+- [This-in-Function](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/this-in-function.md)
+
+## Performance
+
+- [Best Practices for Speeding Up Your Web Site](https://github.com/L-movingon/prepare-for-interview/blob/master/Performance/best-practices-for-speeding-up-your-web-site.md) 
