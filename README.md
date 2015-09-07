@@ -22,8 +22,8 @@ Step by step, keep moving
 - [AMD and CMD](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/amd-and-cmd.md)
 - [Hoisting](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/hoisting.md)
 - [Difference Between Function Declaration and Function Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/difference-between-function-declaration-and-function-expression.md)
-- [Immediately-invoked-Function-Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/immediately-invoked-function-expression.md)
-- [This-in-Function](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/this-in-function.md)
+- [Immediately invoked Function Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/immediately-invoked-function-expression.md)
+- [This in Function](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/this-in-function.md)
 
 ## Performance
 

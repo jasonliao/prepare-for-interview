@@ -1,4 +1,4 @@
-# "THIS" is Functon
+# "THIS" in Functon
 
 function 里的 `this` 在不同的时候，会有不同的表现，一般会有以下四种情况
 
