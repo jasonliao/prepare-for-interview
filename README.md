@@ -28,4 +28,5 @@ Step by step, keep moving
 ## Books
 
 - [CSS Mastery](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery)
-	- [Par1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-1.md)
+	- [Par1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-1.md) (*selector*, *specificity*, *comment*)
+	- [Par2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-2.md) (*box model*, *margin collapsing*, *position*, *float*)
