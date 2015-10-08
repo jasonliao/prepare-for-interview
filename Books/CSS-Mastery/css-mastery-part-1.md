@@ -1,4 +1,4 @@
-# CSS Mastery - Part1
+# CSS Mastery - Part 1
 
 ## Navigation
 
