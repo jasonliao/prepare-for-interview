@@ -30,4 +30,4 @@ Step by step, keep moving
 - [CSS Mastery](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery)
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-1.md) (*selector*, *specificity*, *comment*)
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-2.md) (*box model*, *margin collapsing*, *position*, *float*)
-	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-3.md) (*opacity*, *link*, *tooltip*)
+	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-3.md) (*opacity*, *link*, *tooltip*, *form*, *nav*)

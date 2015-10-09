@@ -1,6 +1,9 @@
 # CSS Mastery - Part 3
 
-Using Backgrounds for Effect & Styling Links
+- Using Backgrounds for Effect
+- Styling Links
+- Styling Lists and Creating Nav Bars
+- Styling Forms and Data Tables
 
 ## Background Image
 
@@ -116,4 +119,77 @@ a.tooltip:hover span {
     display: block;
     // tooltip pop up style
 }
+```
+
+## Highlighting the Current Page in a Nav Bar
+
+在当前导航栏中标记出当前的页面，实现的方法可以有多种，书中的方法是在每个页面的 `<body>` 标签中进行设置 `id` 属性，再在列表项中加入相应的类名，然后再用 CSS 控制，如下
+
+若当前的页面为 `Home`
+
+```html
+<body id="home">
+    <ul class="nav">
+        <li class="home"><a href="/home/">Home</a></li>
+        <li class="about"><a href="/about/">About</a></li>
+        <li class="contact"><a href="/contact/">Contact</a></li>
+    </ul>
+</body>
+```
+
+然后在 CSS 中
+
+```css
+#home .nav .home a,
+#about .nav .about a,
+#contact .nav .contact a {
+    /* stylesheet goes here */
+}
+```
+
+还有一种方法就是直接在列表项中加入 `id` 
+
+```html
+<body>
+    <ul class="nav">
+        <li id="current"><a href="/home/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+    </ul>
+</body>
+```
+
+```css
+#current a {
+    /* stylesheet goes here */
+}
+```
+
+## summary and caption
+
+`<caption>` 基本是用作表格的标题，居于 `<thead>` 之上
+
+`summary` 则是 `<table>` 的一个属性，就相当于 `<img>` 的 `alt` 属性，用于总结表格中内容的数据和描述
+
+## fieldset and legend
+
+`<fieldset>` 可以有助于我们把表单信息分组，浏览器会帮我们的在 `<fieldset>` 的周围加上一个细线边，但我们可以通过 `border: none` 将其去掉
+
+`<legend>` 就像是 `<fieldset>` 的标题，但是 `<legend>` 很难应用样式
+
+## Form Labels
+
+使用 `<label>` 标签与表单控件关联起来有很大的好处
+
+- 可以使结构更加的完整
+- 增加表单的可用性和可访问性
+- 增加了表单对于使用辅助设备用户的易用性
+
+有两种方式可以把我们的 `<label>` 和我们的表单关联起来
+
+```html
+<label>email: <input type="email" name="email" /></label>
+
+<label for="email">email</label>
+<input type="email" name="email" id="email" />
 ```
