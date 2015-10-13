@@ -34,3 +34,4 @@ Step by step, keep moving
 	- [Part 4](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery/css-mastery-part-4.md) (*layout*, *conditional comments*)
 - [JavaScript: The Good Parts](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts)
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-1.md) (*block comments*, *%*, *object*, *function*, *scope*, *closure*)
+	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-2.md) (*constructor*, *inheritance*, *array*)
