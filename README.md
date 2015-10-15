@@ -35,3 +35,4 @@ Step by step, keep moving
 - [JavaScript: The Good Parts](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts)
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-1.md) (*block comments*, *%*, *object*, *function*, *scope*, *closure*)
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-2.md) (*constructor*, *inheritance*, *array*)
+	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-3.md) (*regexp*)
