@@ -25,6 +25,7 @@ Step by step, keep moving
 - [Immediately invoked Function Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/immediately-invoked-function-expression.md)
 - [This in Function](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/this-in-function.md)
 - [Prototypal Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md)
+- [Functional Programming](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/functional-programming.md)
 
 ## Books
 
