@@ -13,7 +13,7 @@ JavaScript 中有很多种的实现继承的方法，这篇主要是写 **原型
 当访问一个子对象的属性和方法的时候，如果在子对象中找不到，就会沿着 `__proto__` 一直找到父对象
 
 ```javascript
-var animal ＝ { eat: true };
+var animal = { eat: true };
 var cat = { died: false };
 
 cat.__proto__ = animal;
@@ -26,7 +26,7 @@ console.log(cat.eat); // true
 ## *Object.create* and *Object.getPrototypeOf*
 
 ```javascript
-var animal ＝ { eat: true };
+var animal = { eat: true };
 var cat = Object.create(animal);
 
 console.log(cat.eat); // true
