@@ -152,3 +152,29 @@ JavaScript 给我们提供了构造函数去定义一个类，并用 `new` 关�
 
 如果你在调用构造器函数的时候忘记了在前面加上 `new` 前缀，那个 `this` 将不会被绑定到一个新的对象上， `this` 将被绑定到全局对象 `window` 上，所以你不但没有扩充新对象，反而破坏了全局变量环境
 
+有两种方法可以避免忘记 `new` 所带来的问题
+
+### Using *that*
+
+这其实不算是一种解决方法，因为这根本不是算是一个构造函数，但是在 《JavaScript Patterns》 里提到过，其实这更属于一种叫 [Functional Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-2.md#how-functional-works)
+
+```javascript
+function Waffle () {
+    var that = {};
+    that.tastes = 'yummy';
+    return that;
+}
+```
+
+### Self-Invoking Constructor
+
+这种方法就是当我们没有用 `new` 关键字调用构造函数的时候，就在内部用 `new` 关键字帮你调用，再返回给我们
+
+```javascript
+function Waffle () {
+    if (!(this instanceof Waffle)) {
+        return new Waffle();
+    }
+    this.tastes = 'yummy';
+}
+```
