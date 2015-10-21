@@ -110,6 +110,8 @@ function getProperty (object, property) {
 | 访问对象属性的时候要在原型链上搜索，所以可能会更慢 | 访问对象属性更快是因为属性都已复制到子类上 |
 | 在 JavaScript 中，一个对象可能只继承一个原型对象 | 一个对象可能从多个原型对象中复制属性 |
 
+还有一种原型继承的类型叫 [Functional Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-2.md#how-functional-works)
+
 ## Inheriting from Multiple Prototypes
 
 多继承就是原型继承比类式继承强大的地方
