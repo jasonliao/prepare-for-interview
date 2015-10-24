@@ -194,3 +194,21 @@ MYAPP.util.array = (function (app, global) {
         
 }(MYAPP, this));
 ```
+
+## Chaining Pattern
+
+链模式可以让我们一个接一个的调用对象的方法，而无需将前一个操作返回的值赋给变量，并且无需将你的调用分割成多行，我们熟悉的 jQuery 就是采用这种模式
+
+```javascript
+$('#main').css('display', 'block').css('background', 'red');
+```
+
+我们只要在定义方法的最后，添加 `return this` 就会简单地实现这一功能
+
+### Pros and Cons of the Chaining Pattern
+
+链模式的一个优点在于可以节省一些输入的字符，并且还可以创建更简洁的代码，还有一个优点就是它可以让你分割函数，不需要创建实现太多功能的函数，从长远看来，这提高代码的可维护性
+
+但是它的缺点就在于，这种方式更加难以调试，你不知道究竟是在哪一个方法发生失效
+
+但是当我们编写方法的时候，没有明显和有意义的返回的时候，都可以返回 `this` 

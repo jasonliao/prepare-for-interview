@@ -42,7 +42,8 @@ Step by step, keep moving
 - [JavaScript Patterns](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns)
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-1.md) (*property type*)
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-2.md) (*global variables*, *forgetting var*, *for loops*)
-	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md) (*namespace*, *private properties and methods*, *module pattern*)
+	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md) (*namespace*, *private properties and methods*, *module pattern*, *chaining pattern*)
+
 
 ## Others
 
