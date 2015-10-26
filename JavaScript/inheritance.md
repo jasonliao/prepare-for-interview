@@ -17,85 +17,11 @@
   - `function Object()` 的 `prototype` 就是指向 `Object.prototype`
   - `function Function()` 的 `prototype` 就是指向 `Function.prototype`
 
-## Inheritance with the prototype chain
+## [Classical Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/classical-inheritance.md)
 
-原型链继承，简单的说就是子类的原型是父类的实例。
+## [Prototypal Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md)
 
-```javascript
-var Person = function (age) {
-  this.age = age;
-};
-
-Person.prototype = {
-  sayAge: function () {
-    console.log(this.age);
-  }
-};
-
-var Student = function (name, age) {
-  this.name = name;
-  this.age = age;
-};
-
-Student.prototype = new Person();
-
-var Jason = new Student('Jason', 21);
-Jason.sayAge() // 21
-```
-
-这样就可以继承父类原型的方法。但是在构造子类的时候，没有办法给父类传递参数。
-
-这时候就要用**类式继承(借用构造函数)**
-
-## Classical inheritance
-
-类式继承其实就是子类的构造函数用 `call` 借用了父类的构造函数。这样就可以给父类传递构造的参数了
-
-```javascript
-var Person = function (age) {
-  this.age = age;
-};
-
-Person.prototype = {
-  sayAge: function () {
-    console.log(this.age);
-  }
-};
-
-var Student = function (name, age) {
-  Person.call(this, age);
-  this.name = name;
-};
-
-var Jason = new Student('Jason', 21);
-```
-
-但是这样就还不可以与父类共享原型中的方法，所以一般我们会把**原型链继承**和**类式继承**组合使用，称**组合继承**
-
-## Combination inheritance
-
-```javascript
-var Person = function (age) {
-  this.age = age;
-};
-
-Person.prototype = {
-  sayAge: function () {
-    console.log(this.age);
-  }
-};
-
-var Student = function (name, age) {
-  Person.call(this, age);
-  this.name = name;
-};
-
-Student.prototype = new Person();
-
-var Jason = new Student('Jason', 21);
-```
-
-## [Prototypal inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md)
+## [Functional Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-The-Good-Parts/javascript-the-good-parts-part-2.md#inheritance)
 
 ## Reference
 

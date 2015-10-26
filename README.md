@@ -25,6 +25,7 @@ Step by step, keep moving
 - [Immediately invoked Function Expression](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/immediately-invoked-function-expression.md)
 - [This in Function](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/this-in-function.md)
 - [Prototypal Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md)
+- [Classical Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/classical-inheritance.md)
 - [Functional Programming](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/functional-programming.md)
 
 ## Books
@@ -43,6 +44,7 @@ Step by step, keep moving
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-1.md) (*property type*)
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-2.md) (*global variables*, *forgetting var*, *for loops*)
 	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md) (*namespace*, *private properties and methods*, *module pattern*, *chaining pattern*)
+	- [Part 4](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/classical-inheritance.md) (*classical inheritance*)
 
 
 ## Others
