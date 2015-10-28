@@ -109,3 +109,54 @@ var Universe = (function () {
     };
 }());
 ```
+
+## *Module Pattern* and *Singleton Pattern*
+
+Module Pattern 更注重的是私有的属性和方法，返回的是一个对象的字面量而不是一个构造函数，所以不需要用 `new` 去创建对象
+
+而在这里的 Singleton Pattern 注重的更是 instance 的唯一性，返回的则是一个构造函数，需要用 `new` 再去创建这个单例
+
+我们可以把他们结合起来，组合成一种更加完整，更加简单好用的单例模式
+
+```javascript
+var mySingleton = (function () {
+    // 创建 `instance` 变量去保存我们的唯一实例
+    var instance;
+    
+    // 我们要保存私有属性，所以要创建一个闭包
+    function init () {
+        // 私有变量和方法
+        function privateMethod () {
+            console.log( "I am private" );
+        }
+        var privateVariable = "Im also private";
+            
+        // 返回公共属性和方法
+        return {
+            publicMethod: function () {
+                console.log( "The public can see me!" );
+            },
+            publicProperty: "I am also public"
+        };
+    }
+    
+    // 我们还要用一个方法来判断是否已经实例过
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = init();
+            }
+            return instance;
+        }
+    };
+    
+}());
+```
+
+这样我们创建实例的时候，就可以不需要 `new`，而且还可以保存私有变量
+
+```javascript
+var singleA = mySingleton.getInstance();
+var singleB = mySingleton.getInstance();
+console.log(singleA === singleB); // true
+```
