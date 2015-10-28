@@ -17,7 +17,6 @@ Step by step, keep moving
 ## JavaScript
 
 - [Event Delegation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-delegation.md)
-- [Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/inheritance.md)
 - [Event Loop](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-loop.md)
 - [AMD and CMD](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/amd-and-cmd.md)
 - [Hoisting](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/hoisting.md)
@@ -45,7 +44,8 @@ Step by step, keep moving
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-1.md) (*property type*)
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-2.md) (*global variables*, *forgetting var*, *for loops*)
 	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md) (*namespace*, *private properties and methods*, *module pattern*, *chaining pattern*)
-	- [Part 4](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/classical-inheritance.md) (*classical inheritance*)
+	- ~~Part 4 (*design patterns*)~~
+	- [Part 5](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/javascript-patterns-part-5.md) (*dom*, *event*)
 
 
 ## Others

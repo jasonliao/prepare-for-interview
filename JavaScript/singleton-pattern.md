@@ -107,5 +107,5 @@ var Universe = (function () {
         
         instance = this;
     };
-});
+}());
 ```
