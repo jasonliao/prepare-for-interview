@@ -107,7 +107,7 @@ var Universe = (function () {
         
         instance = this;
     };
-}());
+});
 ```
 
 ## *Module Pattern* and *Singleton Pattern*
@@ -159,4 +159,53 @@ var mySingleton = (function () {
 var singleA = mySingleton.getInstance();
 var singleB = mySingleton.getInstance();
 console.log(singleA === singleB); // true
+```
+
+但是还有一种情况就是我在创建单例的时候，可能要传入参数，这时就不可以单单使用 `init()` 来返回一个对象字面量，我们更需要的是一个构造函数
+
+```javascript
+var mySingleton = (function () {
+    // 创建 `instance` 变量去保存我们的唯一实例
+    var instance;
+    
+    // 我们需要一个可以存储私有属性和方法的构造函数
+    function SingletonConstructor (options) {
+        // 私有变量和方法
+        function privateMethod () {
+            console.log( "I am private" );
+        }
+        var privateVariable = "Im also private",
+            options = options || {};
+        
+        // 公共属性和方法
+        this.pointX = options.pointX || 6;
+        this.pointY = options.pointY || 10;
+        this.publicMethod = function () {
+            console.log( "The public can see me!" );
+        };
+        
+    }
+    
+    // 我们还要用一个方法来判断是否已经实例过
+    return {
+        getInstance: function (options) {
+            if (!instance) {
+                // 实例用 `new` 的方式创建
+                instance = new SingletonConstructor(options)
+            }
+            return instance;
+        }
+    };
+    
+}());
+```
+
+这时候就可以在创建单例的时候传参数了，但第二个创建的实例因为和前一个为同一个，所以参数会不起作用
+
+```javascript
+var singletonTest1 = mySingleton.getInstance({ pointX: 5 });
+var singletonTest2 = mySingleton.getInstance({ pointX: 7 });
+
+console.log(singletonTest1 === singletonTest2); //true
+console.log(singletonTest2.pointX); // 5
 ```
