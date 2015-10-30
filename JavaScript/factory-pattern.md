@@ -1,7 +1,5 @@
 # Factory Pattern
 
-Tags: JavaScript
-
 工厂模式并不需要我们用构造函数去创建我们的对象，我们只需要调用一个工厂的方法，并把我们想要的类型传进去，工厂就会帮我们创建这个对象并返回
 
 例如我们有一个 UI 工厂，可以给我们创建不同类型的 UI 组件，这时我们只要调用工厂方法，并把我们想要的 UI 组件传进去，如 `Button` `Panel`，这样就不需要去直接用 `new` 的方式调用不同组件的构造函数
@@ -82,3 +80,9 @@ var myBigTruck = truckFactory.createVehicle({
 ## When Not To Use The Factory Pattern
 
 除非需要为创建比较复杂的对象提供接口，否则，不要滥用运用工厂模式，有时候仅仅只是给代码增加了不必要的复杂度，同时使得测试难以运行下去
+
+## Build-in Object Factory
+
+`Object()` 构造函数就是我们一个内置的工厂，它可以根据你们输入的类型来创建不同的对象，例如你输入一个原始数字，那么它就能够在后台以 `Number()` 的构造函数创建一个对象
+
+`Object()` 无论使用 `new` 操作符与否，都可以调用 `Object()`

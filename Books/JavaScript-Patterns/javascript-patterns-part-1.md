@@ -140,3 +140,19 @@ console.log(Dyear);
     }
 */
 ```
+
+## *DefineProp*
+
+我们可以看到，当我们用 `defineProperty` 或 `defineProperties` 定义属性的时候， `writable` `enumerable` `configurable` 这些属性都默认为 `false`，这样子之后想对属性操作都会被禁止，为了不每次定义属性都修改它们的默认值，我们可以自己定义一个 `defineProp` 的方法
+
+```javascript
+function defineProp (obj, key, value) {
+    var config = {
+        value: value,
+        writable: true, 
+        enumerable: true, 
+        configurable: true
+    };
+    Object.defineProperty(obj, key, config);
+}
+```
