@@ -28,6 +28,7 @@ Step by step, keep moving
 - [Functional Programming](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/functional-programming.md)
 - [Singleton Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/singleton-pattern.md)
 - [Factory Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/factory-pattern.md)
+- [Observe Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/observer-pattern.md)
 
 ## Books
 
