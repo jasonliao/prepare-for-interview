@@ -29,6 +29,7 @@ Step by step, keep moving
 - [Singleton Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/singleton-pattern.md)
 - [Factory Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/factory-pattern.md)
 - [Observe Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/observer-pattern.md)
+- [Mediator Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/mediator-pattern.md)
 
 ## Books
 
@@ -47,7 +48,7 @@ Step by step, keep moving
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-2.md) (*global variables*, *forgetting var*, *for loops*)
 	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md) (*namespace*, *private properties and methods*, *module pattern*, *chaining pattern*)
 	- ~~Part 4 (*design patterns*)~~
-	- [Part 5](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/javascript-patterns-part-5.md) (*dom*, *event*)
+	- [Part 5](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-5.md) (*dom*, *event*)
 
 
 ## Others
