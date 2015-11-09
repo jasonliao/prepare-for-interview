@@ -132,6 +132,7 @@ var addListener = function (event, target, handler) {
                 target['on' + event] = handler;
             }
         }
+        return addListener(event, target, handler);
     };
     ```
 
