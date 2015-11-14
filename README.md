@@ -50,6 +50,8 @@ Step by step, keep moving
 	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md) (*namespace*, *private properties and methods*, *module pattern*, *chaining pattern*)
 	- [Part 4](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-4.md) (*design patterns*)
 	- [Part 5](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-5.md) (*dom*, *event*)
+- [Maintainable JavaScript](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript)
+	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript/maintainable-javascript-part-1.md) (*null*, *undefined*, *loose coupling of ui layers*, *event handling*)
 
 
 ## Others
