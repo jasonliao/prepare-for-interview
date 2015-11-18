@@ -57,3 +57,4 @@ Step by step, keep moving
 ## Others
 
 - [10 Interview Questions Every JavaScript Developer Should Know](https://github.com/L-movingon/prepare-for-interview/blob/master/Others/10-interview-questions-every-javascript-developer-should-know.md)
+- [Interview Questions](https://github.com/L-movingon/prepare-for-interview/blob/master/Others/interview-questions.md)
