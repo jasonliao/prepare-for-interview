@@ -29,11 +29,11 @@ Step by step, keep moving
 
 ## Design Patterns
 
-- [Singleton Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/singleton-pattern.md)
-- [Factory Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/factory-pattern.md)
-- [Observe Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/observer-pattern.md)
-- [Mediator Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/mediator-pattern.md)
-- [Strategy Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/strategy-pattern.md)
+- [Singleton Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/singleton-pattern.md)
+- [Factory Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/factory-pattern.md)
+- [Observe Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/observer-pattern.md)
+- [Mediator Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/mediator-pattern.md)
+- [Strategy Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/strategy-pattern.md)
 
 ## Books
 
