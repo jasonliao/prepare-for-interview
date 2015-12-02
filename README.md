@@ -55,6 +55,7 @@ Step by step, keep moving
 	- [Part 5](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-5.md) (*dom*, *event*)
 - [Maintainable JavaScript](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript)
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript/maintainable-javascript-part-1.md) (*null*, *undefined*, *loose coupling of ui layers*, *event handling*)
+	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript/maintainable-javascript-part-2.md) (*detecting value*)
 
 
 ## Others
