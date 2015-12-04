@@ -56,7 +56,7 @@ Step by step, keep moving
 - [Maintainable JavaScript](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript)
 	- [Part 1](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript/maintainable-javascript-part-1.md) (*null*, *undefined*, *loose coupling of ui layers*, *event handling*)
 	- [Part 2](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript/maintainable-javascript-part-2.md) (*detecting value*)
-
+	- [Part 3](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/Maintainable-JavaScript/maintainable-javascript-part-3.md) (*error*, *preventing modification*)
 
 ## Others
 
