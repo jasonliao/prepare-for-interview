@@ -2,10 +2,10 @@
 
 ## Creational Design Patterns
 .
-- [Singleton Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/singleton-pattern.md)
-- [Factory Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/factory-pattern.md)
+- [Singleton Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/singleton-pattern.md)
+- [Factory Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/factory-pattern.md)
 - [Modual Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/JavaScript-Patterns/javascript-patterns-part-3.md#module-pattern)
-- [Prototype Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md)
+- [Prototype Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/prototypal-inheritance.md)
 
 ## Structural Design Patterns
 
@@ -98,7 +98,7 @@
     
     例如这种模式的其中一个例子就是 **延迟初始化**，首先客户端发出一个初始化请求，然后代理以一切正常作为响应，但实际上却并没有将该消息传递到本体对象，直到客户端明显需要本体对象完成一些工作的时候，代理才将两个消息一起传递
 
-- [Mixin Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md#inheriting-from-multiple-prototypes)
+- [Mixin Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/prototypal-inheritance.md#inheriting-from-multiple-prototypes)
 
 ## Behavioral Design Patterns
 
@@ -121,9 +121,9 @@
     });
     ```
     
-- [Observer Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/observer-pattern.md)
-- [Mediator Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/mediator-pattern.md)
-- [Strategy Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/strategy-pattern.md)
+- [Observer Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/observer-pattern.md)
+- [Mediator Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/mediator-pattern.md)
+- [Strategy Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/strategy-pattern.md)
 - Command Pattern
 
     命名模式的目标是将方法的调用，请求或者操作封装到一个单独的对象中，给我们酌情执行同时参数化和传递方法调用的能力
