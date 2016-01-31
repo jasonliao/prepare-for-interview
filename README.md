@@ -26,6 +26,7 @@ Step by step, keep moving
 - [Prototypal Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/prototypal-inheritance.md)
 - [Classical Inheritance](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/classical-inheritance.md)
 - [Functional Programming](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/functional-programming.md)
+- [Currying vs Partial Application](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/currying-vs-partial-application.md)
 
 ## Design Patterns
 
