@@ -28,6 +28,7 @@ Step by step, keep moving
 - [Functional Programming](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/functional-programming.md)
 - [Currying vs Partial Application](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/currying-vs-partial-application.md)
 - [How JSONP Works](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/how-jsonp-works.md)
+- [What is a Closure](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/what-is-closure.md)
 
 ## Design Patterns
 
