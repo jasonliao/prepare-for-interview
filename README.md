@@ -29,6 +29,7 @@ Step by step, keep moving
 - [Currying vs Partial Application](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/currying-vs-partial-application.md)
 - [How JSONP Works](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/how-jsonp-works.md)
 - [What is a Closure](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/what-is-closure.md)
+- [Attribut and Property](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/attribute-and-property.md)
 
 ## Design Patterns
 
