@@ -31,6 +31,7 @@ Step by step, keep moving
 - [What is a Closure](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/what-is-closure.md)
 - [Attribut and Property](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/attribute-and-property.md)
 - [Why Keep Asking Null and Undefined](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/why-keep-asking-null-and-undefined.md)
+- [window.onload vs $(document).ready](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/window-onload-vs-document-ready.md)
 
 ## Design Patterns
 
