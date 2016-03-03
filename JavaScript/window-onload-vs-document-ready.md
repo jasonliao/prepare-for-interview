@@ -55,3 +55,27 @@ document.addEventListener('DOMContentLoaded', function (event) {
 ```
 
 HTML5 标准，IE9+
+
+## readyState
+
+`readyState` 有三个值，分别是 `loading`，`interactive` 和 `complete`。 `interactive` 对应的是 `document` 的 `DOMContentLoaded` 事件，而 `complete` 对应的就是 `load` 事件
+
+所以要想达到 `$(document).ready` 的效果，也可以这样使用
+
+```javascript
+document.onreadystatechange = function () {
+  if (document.readState === 'interactive') {
+    // ...
+  }
+}
+```
+
+而如果想达到 `$(window).load` 的效果，则可以这样
+
+```javascript
+document.onreadystatechange = function () {
+  if (document.readState === 'complete') {
+    // ...
+  }
+}
+```
