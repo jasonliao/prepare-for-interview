@@ -17,7 +17,7 @@ Step by step, keep moving
 
 ## JavaScript
 
-- [Event Delegation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-delegation.md)
+- [Event Bubble & Event Delegation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-bubble-and-event-delegation.md)
 - [Event Loop](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/event-loop.md)
 - [AMD and CMD](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/amd-and-cmd.md)
 - [Hoisting](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/hoisting.md)

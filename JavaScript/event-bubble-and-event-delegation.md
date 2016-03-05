@@ -1,8 +1,20 @@
-# Event Delegation
+# Event Bubble & Event Delegation
+
+## Event Bubble
+
+DOM 事件流包括三个阶段，**事件捕获**、**处于目标阶段**和**事件冒泡阶段**
+
+当你点击一个元素的时候，浏览器并不知道你所点击的确定元素是哪个，它会从 DOM tree 的最高层一层一层往下找，尽可能地找到这个元素所处的最低一层，这就是我们的捕获阶段
+
+当浏览器找到这个元素的最低层的时候，就会触发绑定在这个元素上的 handler，这就是我们的第二个阶段，处于目标阶段
+
+当执行完这个 handler 的时候，浏览器就会根据捕获时的路径，往回走，这时候就会触发绑定在父元素的 handler，这个阶段就是我们的事件冒泡阶段，正是因为有了冒泡，我们才有了强大的事件委托
+
+## Event Delegation
 
 Event delegation allows you to avoid adding event listeners to specific nodes; instead, the event listeners is added to one parent.
 
-## Why
+### Why
 
 我们为什么要用到事件委托？
 
@@ -10,7 +22,7 @@ Event delegation allows you to avoid adding event listeners to specific nodes; i
 
 - 如果你的元素节点会增加或者删除，那你也要对这些元素节点增加或者删除监听，这就会变得非常麻烦。
 
-## How
+### How
 
 如果我们把监听添加在了元素节点的父元素上，我们怎么知道我们点击的是哪一个呢？
 
@@ -37,9 +49,7 @@ document.getElementById('parent-list').addEventListener('click', function (e) {
 
 我们可以通过事件对象的 `target` 属性来拿到我们真正点击的那个节点。
 
-## Compatibility
-
-### addEventListener and attachEvent
+### Compatibility
 
 IE9 之前，不兼容 `addEventListener`，但是有 `attachEvent`
 
@@ -98,8 +108,6 @@ var addEvent = (function () {
   }
 })();
 ```
-
-### target
 
 在回调函数里，可以这样兼容地获取我们的 `target`
 
