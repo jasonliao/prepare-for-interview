@@ -42,6 +42,11 @@ Step by step, keep moving
 - [Mediator Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/mediator-pattern.md)
 - [Strategy Pattern](https://github.com/L-movingon/prepare-for-interview/blob/master/Design-Patterns/strategy-pattern.md)
 
+
+## Performance
+
+- [Best Practices for Speeding Up Your Web Site](https://github.com/L-movingon/prepare-for-interview/blob/master/Performance/best-practices-for-speeding-up-your-web-site.md)
+
 ## Books
 
 - [CSS Mastery](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery)
