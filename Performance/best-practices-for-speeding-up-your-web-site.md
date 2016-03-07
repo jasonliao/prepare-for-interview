@@ -2,6 +2,44 @@
 
 [YAHOO! 很经典的性能优化 35 计](https://developer.yahoo.com/performance/rules.html)
 
+Table of Content
+
+- [Minimize HTTP Requests](#minimize-http-requests)
+- [Use a Content Delivery Network](#use-a-content-delivery-network)
+- [Add an Expires or a Cache-Control Header](#add-an-expires-or-a-cache-control-header)
+- [Gzip Components](#gzip-components)
+- [Put Stylesheets at the Top](#put-stylesheets-at-the-top)
+- [Put Scripts at the Bottom](#put-scripts-at-the-bottom)
+- [Avoid CSS Expressions](#avoid-css-expressions)
+- [Make JavaScript and CSS External](#make-javascript-and-css-external)
+- [Reduce DNS Lookups](#reduce-dns-lookups)
+- [Minify JavaScript and CSS](#minify-javascript-and-css)
+- [Avoid Redirects](#avoid-redirects)
+- [Remove Duplicate Scripts](#remove-duplicate-scripts)
+- [Configure ETags](#configure-etags)
+- [Make Ajax Cacheable](#make-ajax-cacheable)
+- [Flush the Buffer Early](#flush-the-buffer-early)
+- [Use GET for AJAX Requests](#use-get-for-ajax-requests)
+- [Post-load Components](#post-load-components)
+- [Preload Components](#preload-components)
+- [Reduce the Number of DOM Elements](#reduce-the-number-of-dom-elements)
+- [Split Components Across Domains](#split-components-across-domains)
+- [Minimize the Number of iframes](#minimize-the-number-of-iframes)
+- [No 404s](#no-404s)
+- [Reduce Cookie Size](#reduce-cookie-size)
+- [Use Cookie-free Domains for Components](#use-cookie-free-domains-for-components)
+- [Minimize DOM Access](#minimize-dom-access)
+- [Develop Smart Event Handlers](#develop-smart-event-handlers)
+- [Choose < link> over @import](#choose--link-over-@import)
+- [Avoid Filters](#avoid-filters)
+- [Optimize Images](#optimize-images)
+- [Optimize CSS Sprites](#optimize-css-sprites)
+- [Don't Scale Images in HTML](#dont-scale-images-in-html)
+- [Make favicon.ico Small and Cacheable](#make-faviconico-small-and-cacheable)
+- [Keep Components under 25K](#keep-components-under-25k)
+- [Pack Components into a Multipart Document](#pack-components-into-a-multipart-document)
+- [Avoid Empty Image src](#avoid-empty-image-src)
+
 ## Minimize HTTP Requests
 
 减少 HTTP 的请求是提高你网页速度的关键。因为一个 HTTP 请求绝大多数的时间都消耗在建立连接和等待返回上。这里有一些减少 HTTP 请求的技巧

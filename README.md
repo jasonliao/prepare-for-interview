@@ -47,6 +47,10 @@ Step by step, keep moving
 
 - [Best Practices for Speeding Up Your Web Site](https://github.com/L-movingon/prepare-for-interview/blob/master/Performance/best-practices-for-speeding-up-your-web-site.md)
 
+## Computer Networks
+
+- [Understanding of HTTP](https://github.com/L-movingon/prepare-for-interview/blob/master/Computer-Networks/understanding-of-http.md)
+
 ## Books
 
 - [CSS Mastery](https://github.com/L-movingon/prepare-for-interview/blob/master/Books/CSS-Mastery)
