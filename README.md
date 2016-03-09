@@ -51,6 +51,7 @@ Step by step, keep moving
 ## Computer Networks
 
 - [Understanding of HTTP](https://github.com/L-movingon/prepare-for-interview/blob/master/Computer-Networks/understanding-of-http.md)
+- [Understanding of TCP](https://github.com/L-movingon/prepare-for-interview/blob/master/Computer-Networks/understanding-of-tcp.md)
 
 ## Data Structure
 
