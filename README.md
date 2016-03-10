@@ -34,6 +34,7 @@ Step by step, keep moving
 - [Why Keep Asking Null and Undefined](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/why-keep-asking-null-and-undefined.md)
 - [window.onload vs $(document).ready](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/window-onload-vs-document-ready.md)
 - [preventDefault vs stopPropagation vs stopImmediatePropagation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/preventdefault.md)
+- [Cross Origin HTTP Request](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/cross-origin-http-request.md)
 
 ## Design Patterns
 
