@@ -6,6 +6,7 @@ Step by step, keep moving
 
 - [What's the Difference Between Standards Mode and Quirks Mode](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/whats-the-difference-between-standards-mode-and-quirks-mode.md)
 - [Difference Between Web Storage, Cookies and Session](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/difference-between-webstorage-cookies-and-session.md)
+- [Something About HTML5](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/something-about-html5.md)
 
 ## CSS
 
