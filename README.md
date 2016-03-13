@@ -7,7 +7,7 @@ Step by step, keep moving
 - [What's the Difference Between Standards Mode and Quirks Mode](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/whats-the-difference-between-standards-mode-and-quirks-mode.md)
 - [Difference Between Web Storage, Cookies and Session](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/difference-between-webstorage-cookies-and-session.md)
 - [Something About HTML5](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/something-about-html5.md)
-- [Something About <meta>](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/something-about-meta.md)
+- [Something About meta](https://github.com/L-movingon/prepare-for-interview/blob/master/HTML/something-about-meta.md)
 
 ## CSS
 
@@ -16,6 +16,7 @@ Step by step, keep moving
 - [Clearing Floats](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/clearing-floats.md)
 - [About * { box-sizing: border-box; }](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/about-box-sizing-border-box.md)
 - [Reflow and Repaint](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/reflow-and-repaint.md)
+- [Why We Need Sass](https://github.com/L-movingon/prepare-for-interview/blob/master/CSS/why-we-need-sass.md)
 
 ## JavaScript
 
