@@ -38,6 +38,7 @@ Step by step, keep moving
 - [window.onload vs $(document).ready](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/window-onload-vs-document-ready.md)
 - [preventDefault vs stopPropagation vs stopImmediatePropagation](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/preventdefault.md)
 - [Cross Origin HTTP Request](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/cross-origin-http-request.md)
+- [Promise](https://github.com/L-movingon/prepare-for-interview/blob/master/JavaScript/promise.md)
 
 ## Design Patterns
 
