@@ -147,9 +147,9 @@ BFC 不会与 float 元素重叠，这个特性也非常的有好处
 
 ```html
 <div class="container">
-  <div class="column"><div>
-  <div class="column"><div>
-  <div class="column"><div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
 </div>
 ```
 
