@@ -31,7 +31,7 @@ console.log(person.name);   // Jason
 
 同样的，我们还可以用这个方法来修改 `configurable` 属性，但这个属性一旦设置为 `false`，就再也不能用 `Object.defineProperty` 这个方法来修改除 `writable` 之外的特性了
 
-在调用 `Object.degineProperty` 定义属性的时候，`configurable` `enumerable` `writable` 默认都是 `false`
+在调用 `Object.defineProperty` 定义属性的时候，`configurable` `enumerable` `writable` 默认都是 `false`
 
 ### Accessor Properties
 
