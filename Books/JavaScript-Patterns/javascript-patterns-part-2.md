@@ -28,7 +28,7 @@ function foo () {
 
 ```javascript
 var global_var = 1;
-globl_novat = 2;
+global_novar = 2;
 (function () {
     global_fromfun = 3;
 });
