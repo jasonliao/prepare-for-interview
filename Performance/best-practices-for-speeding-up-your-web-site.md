@@ -63,6 +63,8 @@ Table of Content
 
 如果不属于协商缓存，则正常请求，正常返回
 
+详情看[这里](https://juejin.im/post/5ca564d9f265da307352d7e8)
+
 ## Gzip Components
 
 GZip 压缩
